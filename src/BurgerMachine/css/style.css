@@ -1,0 +1,94 @@
+
+
+html,body{
+  
+
+ 
+font-family: Raleway, arial;
+  
+  }
+#mytable{
+
+  
+}
+
+.infoing{
+  top:0;
+  left:0;
+  right: 0;
+ 
+  position: absolute;
+  display: none;
+  background-color: rgb(207, 25, 71);
+
+  color: white;
+}
+.card:hover .infoing{
+  display: block;
+  
+}
+
+
+.fabriquer-error{
+  top: 100;
+  left: 100;
+  position: fixed;
+  width: 400px;
+  background-color: red;
+  color: white;
+
+}
+
+.fabriquer-success{
+  top: 100;
+  left: 10;
+  position: fixed;
+  background-color: green;
+  color: white;
+  font-size: 2em;
+  
+}
+
+
+input.stockinput{
+  max-width: 100px;
+ 
+}
+.stockchanged{
+ 
+  display: none;
+  color: white !important;
+  font-weight: bold;
+}
+footer{
+  text-align: center;
+  background-color: black;
+margin-top: 2em;
+  color: white;
+}
+
+.moins{
+  font-weight: bold;
+  padding: 5px;
+  text-align: right;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+.plus{
+  font-weight: bold;
+  padding: 5px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.stockinput{
+  text-align: center;
+}
+
+.card-img-top{
+  width: 400px;
+  height: 200px;
+}
